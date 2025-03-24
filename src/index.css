@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
 
 html,
 body {
@@ -47,4 +48,14 @@ body {
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.signature-text {
+  font-family: "Dancing Script", cursive; /* Handwritten cursive */
+  font-size: 2rem; /* Adjust for better visibility */
+  color: #3B82F6; /* Blue color */
+  font-style: italic; /* Adds slant */
+  font-weight: 500; /* Slightly thicker for signature feel */
+  transform: rotate(-10deg) skewX(-15deg); /* Rotates and skews for signature effect */
+  display: inline-block;
 }
